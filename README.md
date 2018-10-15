@@ -1,12 +1,8 @@
 # open-jre
-This Docker image provides extends [dockerized/docker](https://gitlab.alpinedata.tech/dockerized/docker) and provides a dockerized JRE - Java Runtime Environment:
+This Docker image provides extends [alpine](https://hub.docker.com/_/alpine/) and provides a minimal dockerized JRE - Java Runtime Environment:
 
 * [OpenJRE](http://openjdk.java.net/) == 1.8.0_172
-* [Docker Compose](https://docs.docker.com/compose/) == 1.22.0
-* [Docker Client](https://docs.docker.com/engine/reference/commandline/cli/) == 18.06.1-ce
-* [GNU Bash](https://www.gnu.org/software/bash/) == 4.4.19
 * [Linux Alpine](https://www.alpinelinux.org) == 3.8
-
 
 
 ## build

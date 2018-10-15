@@ -1,4 +1,4 @@
-FROM dockerized/docker:18.06.1-ce
+FROM alpine:3.8
 
 LABEL description="This image provides a dockerized JDK - Java Development toolKit"
 LABEL maintainer="pangiole@tibco.com"
