@@ -1,7 +1,7 @@
 # open-jre
 This Docker image provides extends [alpine](https://hub.docker.com/_/alpine/) and provides a minimal dockerized JRE - Java Runtime Environment:
 
-* [OpenJRE](http://openjdk.java.net/) == 1.8.0_172
+* [OpenJRE](http://openjdk.java.net/) == 1.8.0_181
 * [Linux Alpine](https://www.alpinelinux.org) == 3.8
 
 
@@ -9,7 +9,7 @@ This Docker image provides extends [alpine](https://hub.docker.com/_/alpine/) an
 
 ```bash
 registry="registry.alpinedata.tech"
-tag="dockerized/open-jre:8u171"
+tag="pangiolet/open-jre:8u181"
 context="$(pwd)"
 
 docker build \
